@@ -1,0 +1,43 @@
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+
+nav{
+    border-bottom: 1px solid rgb(158,194,143);
+    
+    float: none;
+}
+
+.item25{
+    width:100%;
+}
+
+nav li{
+    display: block;
+}
+
+#categories img{
+    height: 120px;
+    width: 120px;
+}
+
+footer .item33, footer .item33 a{
+    float: none;
+    display: block;
+    /* padding-left: 10%; */
+    text-align: center;
+}
+
+
+.item50{
+    width: 100%;
+    /* float: left; */
+    text-align: center;
+}
+
+#cars{
+    flex-direction: column;
+}

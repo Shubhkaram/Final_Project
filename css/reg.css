@@ -1,0 +1,254 @@
+body{
+    background-image: url("../images/main.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+
+header,footer{
+    font-family:'Gabriola','Century Gothic','serif';
+    color: #eee;
+}
+
+form{
+    font-size: 1em;
+}
+
+h2,h3{
+    font-family:'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 4px,4px,black;
+}
+h3{
+    font-size: 1em;
+}
+
+#evnav{
+    float: left;
+    overflow:auto;
+}
+
+h1{
+    font-size: 5em;
+    font-weight: 500;
+    line-height: 300%;
+    margin:0;
+}
+
+.item50 a{
+    text-decoration-line: none;
+    color: white;
+}
+
+
+footer{
+    background-image: url("../images/alloy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: smaller;
+}
+
+#copyright{
+    font-family: 'serif';
+    font-style: italic ;
+}
+
+header,footer{
+    color:#eee;
+}
+
+h2,nav a{
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-weight:bold;
+    font-size: 2em;
+    text-shadow: 3px, 3px, black;
+}
+
+
+footer nav a{
+    color:#eee;
+    display: block;
+    padding: 0;
+    text-align: left;
+}
+
+h1,nav,#copyright{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding:10px 20px;
+}
+
+header{
+    background-image: url(../images/homepage.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-sections{
+    width: 60%;
+    margin: 1% auto;
+    /* display: grid;
+    grid-template-columns: 30% 60% 10%; */
+    font-family: Georgia;
+}
+
+#reservation{
+    text-align: center;
+}
+
+.form-element input,.form-element > label,.form-element select{
+    width: 90%;
+}
+
+.form-element > label{
+    text-align: right;
+}
+
+.button{
+    text-align: center;
+    display: inline-block;
+    margin: 1%;
+}
+
+.button input{
+    border-radius: 10px;
+    padding: 10%;
+}
+
+legend{
+    text-align: left;
+}
+#wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+footer{
+    padding:10px 10%;
+    margin-top: 20px;
+}
+
+p{
+    font-family:'Open Sans', sans-serif;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    display: inline;
+}
+
+#heroimg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#categories{
+    margin: 40px 0px;
+
+}
+
+#categories section{
+    margin-bottom: 20px;
+}
+
+nav a{
+    padding: 10px 40px;
+    font-weight: bolder ;
+}
+
+nav a:hover{
+    text-shadow: 0px 0px 1px rgb(12, 15, 12);
+}
+
+main{
+    overflow: hidden;
+    border-left:1px solid rgb(158,194, 143);
+}
+
+h1 a{
+    text-decoration: none;
+    color: #eee;
+}
+
+h1 a:hover{
+    text-shadow: 2px 2px 10px white;
+}
+
+.item33{
+    float: left;
+    width: 100%;
+}
+
+
+#copyright{
+    clear: both;
+}
+
+.icon{
+    display: block;
+    font-size: 3em;
+    color:rgb(35,102, 12);
+}
+
+.item25{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.item25 img{
+    height: auto;
+    width: 100%;
+}
+
+#cars{
+    color: black;
+    text-decoration: none;
+    overflow: auto;
+}
+#cars a:visited{
+    color: black;
+}
+#categories section{
+    float: left;
+    width: 50%;
+    overflow: auto;
+}
+.item50{
+    width: 33%;
+    float: left;
+    
+}
+
+#categories img{
+    height: 160px;
+    width: 160px;
+    float: left;
+    object-fit: cover;
+    margin: 0 1em;
+}
+
+#categories h3{
+    margin-top: 0;
+}
+
+.mobile{
+    display: none;
+}
+
+
+
